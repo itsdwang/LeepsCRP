@@ -4,7 +4,7 @@ This experiment is an auction experiment where participants hold an object and a
 ## How to Run the Game 
 1. Clone the repository at https://github.com/oTree-org/oTree, which contains the core files necessary to run experiments that are written using the oTree Python framework, into a folder on your local machine.
 2. Navigate to the oTree directory.
-3. Clone this LeepsCRP repository into the oTree folder
+3. Clone this LeepsCRP repository into the oTree folder.
 4. Run the "pip3 install -U otree" command in terminal. 
 5. Modify the settings.py file and add a dictionary entry in the SESSION_CONFIGS list such that the necessary name, display_name, num_demo_participants, and app_sequence keys are included. The value for the 'name' key must be the exact name of the experiment repository, which is in this case 'LeepsCRP'. The value of the 'num_demo_participants' key must be 4. An example is shown below:
    
