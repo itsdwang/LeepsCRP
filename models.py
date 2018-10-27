@@ -14,14 +14,14 @@ CRP_2018
 
 class Constants(BaseConstants):
     name_in_url = 'LeepsCRP'
-    players_per_group = 4
+    players_per_group = 5
     config = config_py.export_data()
     num_rounds = len(config[0])
     baseBenefits = 150
 
     # The buyer will purchase from the num_bidders_chosen bidders with the lowest
     # scores
-    num_bidders_chosen = 2
+    num_bidders_chosen = 3
 
 
 class Subsession(BaseSubsession):
