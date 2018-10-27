@@ -476,7 +476,7 @@ class WaitForOffers4_2(WaitPage):
         print(sorted_final_offers_list)
 
         # How many neighbors's offers will be used to calc. average
-        max_neighbor_cnt = 4
+        max_neighbor_cnt = 2
 
         # This loop produces a ZeroDivisionError if exactly one participant
         for i in range(len(sorted_final_offers_list)):
